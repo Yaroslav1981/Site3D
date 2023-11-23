@@ -69,6 +69,7 @@ button {
 .container .layers__item-content {
   text-align: center;
   text-transform: uppercase;
+  padding: 0 30px;
 }
 .container .layers__item-content .title {
   font-size: calc(var(--index) * 3.7);

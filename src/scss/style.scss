@@ -78,6 +78,7 @@ button{
            &-content{
             text-align: center;
             text-transform: uppercase;
+            padding: 0 30px;
             .title{
                 font-size: calc(var(--index)*3.7);
                 span{
