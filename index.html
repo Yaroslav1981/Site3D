@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/styles.min.css">
+    <title>Site 3D</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="logo" style="background-image: url(/public/favicon/logo.svg);"></div>
+      <div class="layers">
+        <div class="layer-1 layers__item" ></div>
+        <div class="layer-2 layers__item" ></div>
+        <div class="layer-3 layers__item">
+          <div class="layers__item-content">
+            <h1 class="title">Natural Forest <span>html/css</span></h1>
+            <p class="text">Creating a beautiful 3D website with a 'lens effect'</p>
+            <button class="btn">
+              <a href="#" class="btn-link">start learning</a>
+            </button>
+          </div>
+        </div>
+        <div class="layer-4 layers__item">
+          <canvas class="rain"></canvas>
+        </div>
+        <div class="layer-5 layers__item" ></div>
+        <div class="layer-6 layers__item" ></div>
+      </div>
+      <!-- <div style="height:100vh;"></div> -->
+    </section>
+    <script type="module" src="./src/js/rain.js"></script> 
+    <script type="module" src="./src/js/main.js"></script> 
+  </body>
+</html>
