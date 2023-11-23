@@ -22,6 +22,10 @@
     --index: calc(1vw + 1vh);
     --transition: 1s cubic-bezier(.05,.5,0,1);
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     
     background-color: #000;
@@ -29,6 +33,7 @@ body{
     
     font-family: kamerik-3d;
 }
+
 a{
     text-decoration: none;
     color: #fff;
@@ -107,12 +112,11 @@ button{
         }
 
         .layer-1{
-            background-image: url(/public/images/layer-1.jpg);
+            
             transform: translateZ(-55px) scale(1.06);
             
         }
         .layer-2{
-            background-image: url(/public/images/layer-2.png);
             transform: translateZ(80px) scale(0.93) ;
         }
         .layer-3{
@@ -123,12 +127,10 @@ button{
 
         }
         .layer-5{
-            background-image: url(/public/images/layer-5.png);
             transform: translateZ(300px) scale(0.9);
 
         }
         .layer-6{
-            background-image: url(/public/images/layer-6.png);
             transform: translateZ(380px) ;
         }
        .layer-4,.layer-5,.layer-6{
